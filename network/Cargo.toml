@@ -10,7 +10,7 @@ publish = false
 edition = "2018"
 
 [dependencies]
-anyhow = "1.0.34"
+anyhow = "1.0.36"
 bytes = { version = "0.5.6", features = ["serde"] }
 futures = "0.3.8"
 futures-util = "0.3.8"
@@ -20,17 +20,17 @@ pin-project = "1.0.2"
 proptest = { version = "0.10.1", default-features = true, optional = true }
 proptest-derive = { version = "0.2.0", optional = true }
 rand = { version = "0.7.3", features = ["small_rng"] }
-rand_core = { version = "0.5.1", optional = true }
+rand_core = { version = "0.6.0", optional = true }
 serde = { version = "1.0.117", default-features = false }
 serde_bytes = "0.11.5"
-thiserror = "1.0.22"
+thiserror = "1.0.23"
 tokio = { version = "0.2.22", features = ["full"] }
 tokio-retry = "0.2.0"
 tokio-util = { version = "0.3.1", features = ["codec"] }
 
 bitvec = { path = "../common/bitvec", version = "0.1.0", package = "diem-bitvec" }
 channel = { path = "../common/channel", version = "0.1.0" }
-bcs = "0.1.1"
+bcs = "0.1.2"
 diem-config = { path = "../config", version = "0.1.0" }
 diem-crypto = { path = "../crypto/crypto", version = "0.1.0" }
 diem-crypto-derive = { path = "../crypto/crypto-derive", version = "0.1.0" }
@@ -54,7 +54,7 @@ memsocket = { path = "../network/memsocket", version = "0.1.0" }
 network-builder = {path = "../network/builder", version = "0.1.0"}
 proptest = { version = "0.10.1", default-features = true }
 proptest-derive = { version = "0.2.0" }
-rand_core = { version = "0.5.1" }
+rand_core = { version = "0.6.0" }
 serial_test = "0.5.1"
 socket-bench-server = { path = "../network/socket-bench-server", version = "0.1.0" }
 
