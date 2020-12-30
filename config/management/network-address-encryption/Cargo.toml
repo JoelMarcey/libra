@@ -12,9 +12,9 @@ edition = "2018"
 [dependencies]
 base64 = "0.13.0"
 serde = { version = "1.0.117", features = ["rc"], default-features = false }
-thiserror = "1.0.22"
+thiserror = "1.0.23"
 
-bcs = "0.1.1"
+bcs = "0.1.2"
 diem-global-constants = { path = "../../../config/global-constants", version = "0.1.0"}
 diem-infallible = { path = "../../../common/infallible", version = "0.1.0" }
 diem-logger = { path = "../../../common/logger", version = "0.1.0" }
@@ -24,4 +24,4 @@ diem-workspace-hack = { path = "../../../common/workspace-hack", version = "0.1.
 move-core-types = { path = "../../../language/move-core/types", version = "0.1.0" }
 
 [dev-dependencies]
-rand = "0.7.3"
+rand = "0.8.0"
