@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["CoordinatorMessage","message used by StateSyncClient for communication with Coordinator"]],"struct":[["SyncRequest",""]]});
