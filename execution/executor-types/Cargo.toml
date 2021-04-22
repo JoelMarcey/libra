@@ -10,8 +10,8 @@ publish = false
 edition = "2018"
 
 [dependencies]
-anyhow = "1.0.38"
-serde = { version = "1.0.123", default-features = false }
+anyhow = "1.0.40"
+serde = { version = "1.0.124", default-features = false }
 thiserror = "1.0.24"
 
 bcs = "0.1.2"

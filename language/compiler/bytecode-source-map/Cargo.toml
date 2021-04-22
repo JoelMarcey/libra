@@ -7,7 +7,7 @@ publish = false
 edition = "2018"
 
 [dependencies]
-anyhow = "1.0.38"
+anyhow = "1.0.40"
 diem-types = { path = "../../../types" }
 diem-workspace-hack = { path = "../../../common/workspace-hack" }
 move-core-types = { path = "../../move-core/types" }
@@ -16,7 +16,7 @@ vm = { path = "../../vm" }
 bcs = "0.1.2"
 codespan = "0.8.0"
 codespan-reporting = "0.8.0"
-serde = { version = "1.0.123", default-features = false }
+serde = { version = "1.0.124", default-features = false }
 
 [features]
 default = []

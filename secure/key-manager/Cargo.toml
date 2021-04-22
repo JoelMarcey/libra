@@ -10,10 +10,10 @@ license = "Apache-2.0"
 publish = false
 
 [dependencies]
-anyhow = "1.0.38"
+anyhow = "1.0.40"
 bcs = "0.1.2"
 once_cell = "1.7.2"
-serde = { version = "1.0.123", features = ["rc"], default-features = false }
+serde = { version = "1.0.124", features = ["rc"], default-features = false }
 thiserror = "1.0.24"
 
 crash-handler = { path = "../../common/crash-handler" }
@@ -27,12 +27,12 @@ diem-secure-storage = { path = "../storage" }
 diem-time-service = { path = "../../common/time-service" }
 diem-types = { path = "../../types" }
 diem-workspace-hack = { path = "../../common/workspace-hack" }
-transaction-builder-generated = { path = "../../client/transaction-builder" }
+diem-transaction-builder = { path = "../../client/transaction-builder" }
 
 [dev-dependencies]
 futures = "0.3.12"
 rand = "0.8.3"
-tokio = { version = "1.2.0", features = ["full"] }
+tokio = { version = "1.3.0", features = ["full"] }
 
 executor = { path = "../../execution/executor" }
 executor-test-helpers = { path = "../../execution/executor-test-helpers" }
